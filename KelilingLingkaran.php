@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Div dan Span</title>
+    <title>Keliling Lingkaran</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="img/png" href="gambar/icon.png" sizes="16x16"/>
     <meta name="description" content="Belajar PHP">
