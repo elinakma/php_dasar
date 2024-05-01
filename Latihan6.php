@@ -13,6 +13,7 @@
     <h1>Halaman PHP Elin</h1>
     <?php
     // While loop
+    echo "while loop<br>";
     $x = 10;
     while ($x > 5) {
         echo "Nomor : $x<br>";
@@ -20,6 +21,7 @@
     }
 
     // Do while
+    echo "<br>do while<br>";
     $x = 1;
     do {
         echo "Nomor : $x <br>";
@@ -27,17 +29,20 @@
     } while ($x <= 5);
 
     // Foreach
+    echo "<br>foreach<br>";
     $colors = array("red", "green", "blue", "yellow");
     foreach ($colors as $value) {
         echo "$value <br>";
     }
 
     // For 
+    echo "<br>for<br>";
     for ($x = 0; $x < 10; $x++) {
         echo "Nomor : $x <br>";
     }
 
     // For loop dengan break
+    echo "<br>for loop dengan break<br>";
     for ($x = 0; $x < 10; $x++) {
         if ($x == 4) {
             break;
