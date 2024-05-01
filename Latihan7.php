@@ -33,6 +33,7 @@
     //tampilkan semua umur
     echo "Umur ben adalah " . $umur['Ben'] . "<br>";
     echo "Umur joe adalah " . $umur['Joe'] . "<br>";
+    echo "Umur ahmad adalah " . $umur['ahmad'] . "<br>";
     ?>
 
 </body>
