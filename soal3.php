@@ -37,6 +37,7 @@
     }
 
     // c) Tampilkan semua nama siswa yang memiliki poin = 100 (hasil: tidak ada)
+    echo "Nama siswa yang memiliki poin 100 = ";
     $found = false;
     foreach ($siswa as $data) {
         if ($data["Poin"] == 100) {
@@ -45,7 +46,7 @@
         }
     }
     if (!$found) {
-        echo "Nama siswa yang memiliki poin 100 = Tidak ada";
+        echo "Tidak ada";
     }
     ?>
 
